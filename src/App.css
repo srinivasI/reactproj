@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+h3{
+  color:blue;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

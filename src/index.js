@@ -3,11 +3,31 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Second from './Second';
+import Arrowex from './Arrowex';
+import Hookex from './Hookex';
+import Clsex1 from './Clsex1';
+import Clsex2 from './Clsex2';
+import Clsex3 from './Clsex3';
+import Clsex4 from './Clsex4';
+import Counter from './Counter';
+import Parent from './Parent';
+import Clsex5 from './Clsex5';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const root = ReactDOM.createRoot(document.getElementById('srini'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Clsex5/>
+    <Parent/>
+    <Counter/>
+    <Clsex4/>
+   {/*  <Clsex3 character="Nice Good"/>
+    <Clsex2/>
+    <Hookex/>
+   <Arrowex/>
+    <App /> */}
+
   </React.StrictMode>
 );
 
