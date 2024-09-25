@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import First from './First';
 import Clsex3 from './Clsex3';
+import Mytable from './Mytable';
 
 export default function App(props) {
   return (
     <>
-    <Clsex3/>
+    <Mytable/>
+    {/* <Clsex3/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h3>Hello Srini</h3>
@@ -25,7 +27,7 @@ export default function App(props) {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </>
   );
 }
