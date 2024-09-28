@@ -1,13 +1,37 @@
-import React from 'react';
-import Hookex from './Hookex';
- 
-function First(props) {
-  var myname = 'Hello Function Component!';
- var i=8;
-  return <>
-  <Hookex/><h1>Howa re you?--{props.mysal}==={props.cname}</h1><h3>Hello Srini  age-36</h3>
-  {125+125} {i==5?'Aspire':"Failed"}
-  </>;
-}
- 
+import { Outlet, Link } from "react-router-dom";
+
+const First = () => {
+  return (
+    <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/" >Home</Link>
+          </li>
+          <li>
+            <Link to="/mytable">MyTable</Link>
+          </li>
+          <li>
+            <Link to="/hookeex">Hookex</Link>
+          </li>
+          <li>
+            <Link to="/register">Register</Link>
+          </li>
+          <li>
+            <Link to="/login">Login</Link>
+          </li>
+          <li>
+            <Link to="/gituser">Git suer</Link>
+          </li>
+          
+        </ul>
+      </nav>
+<br></br>
+<br></br>
+      <Outlet />
+    </>
+  )
+};
+
+
 export default First;

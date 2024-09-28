@@ -18,13 +18,29 @@ import Register from './Register';
 import Login from './Login';
 import Lifeex from './Lifeex';
 import Outer from './Outer';
-
+import Hookex1 from './Hookex1';
+import Hookex2 from './Hookex2';
+import Hookex4 from './Hookex4'
+import User from './User';
+import Routedata from './Routedata';
+import Routeex from './Routeex';
+import Routeex2 from './Routeex2';
+import Routerex3 from './Routerex3';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('srini'));
 root.render(
   <React.StrictMode>
-    <Outer/>
-     <Lifeex favcol="greenPink"/> 
+    <Routeex2/>
+     {/* <BrowserRouter>
+    <Routerex3/>
+    </BrowserRouter> */}
+    {/*   <User/>
+    <Hookex4/>
+    <Hookex1/>
+    <Hookex2/> */}
+    {/* <Outer/>
+     <Lifeex favcol="greenPink"/>  */}
    {/*  <Login/>
     <Register/>
     <Mytable/>  */}

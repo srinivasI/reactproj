@@ -7,7 +7,7 @@ import Hookex from './Hookex';
   var mysalry=50000;
   var coursename="React"
  
-  return <><Hookex/><First mysal={mysalry} cname={coursename}/><Headline myvalue={mysalry} /></>;
+  return <><br/><br/>Second Component content start from here<Hookex/><Headline myvalue={mysalry} /></>;
 }
  
 function Headline(props) {
